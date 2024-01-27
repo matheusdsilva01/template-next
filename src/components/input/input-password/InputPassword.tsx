@@ -2,6 +2,7 @@
 import { InputHTMLAttributes, useState } from "react"
 import { EyeIcon, EyeOffIcon } from "lucide-react"
 import { tv } from "tailwind-variants"
+import { inputBase } from "../input-base"
 
 type InputProps = {
   fullWidth?: boolean
@@ -10,7 +11,7 @@ type InputProps = {
 } & InputHTMLAttributes<HTMLInputElement>
 
 const input = tv({
-  base: "bg-zinc-800 p-2 rounded-md border border-zinc-700 focus:outline-none focus:ring-2 focus:ring-zinc-600 focus:border-transparent",
+  extend: inputBase,
 })
 const wrapper = tv({
   base: "flex flex-col p-2 relative",
