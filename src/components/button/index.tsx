@@ -8,7 +8,7 @@ const button = tv({
   variants: {
     variant: {
       contained: "!text-white border-none",
-      outlined: "border-3 !bg-white",
+      outlined: "border-4 !bg-white",
     },
     color: {
       blue: "bg-blue-500 text-blue-500 border-blue-500",
@@ -24,7 +24,7 @@ const button = tv({
   },
   defaultVariants: {
     variant: "contained",
-    color: "blue",
+    color: "red",
   },
 })
 
