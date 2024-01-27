@@ -5,7 +5,6 @@ import { Input } from "@/components/input"
 import { Modal } from "@/components/modal"
 import Select from "@/components/select"
 
-/* this page is to show a all components in project */
 const Home = () => {
   const title = "text-2xl font-bold text-blue-500"
   const [isOpen, setIsOpen] = useState(false)
@@ -19,10 +18,10 @@ const Home = () => {
       >
         logout
       </Button>
-      <Button rounded fullWidth variant="secondary">
+      <Button rounded fullWidth variant="contained">
         to dash
       </Button>
-      <Button rounded fullWidth variant="tertiary">
+      <Button rounded fullWidth variant="outlined">
         Hello world
       </Button>
       <h1 className={title}>text</h1>

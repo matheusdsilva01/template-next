@@ -8,7 +8,7 @@ const ModalActions = () => {
   return (
     <div className="mt-1 flex w-full gap-2 bg-gray-900 px-2 py-1">
       <Button onClick={() => modalContext.onSubmit()}>Confirm</Button>
-      <Button variant="secondary" onClick={() => modalContext.onClose()}>
+      <Button variant="contained" onClick={() => modalContext.onClose()}>
         Cancel
       </Button>
     </div>
